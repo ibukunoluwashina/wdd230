@@ -1,0 +1,84 @@
+body{
+  font-size: 62.5%;
+}
+
+.content{ 
+  font-family: 'baloo tamma 2' Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content{
+  display: block;
+  height: 100%;
+}
+header {
+  border: 0.2rem; 
+  border-radius: 0.4rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: turquoise;
+  box-shadow: 2px 2px 2px gray;
+  margin: 0.5rem 0.5rem 0;
+}
+.home{
+  display: flex;
+
+}
+.image-message{
+  border-left: 20cm;
+  padding: 13rem;
+  text-shadow: 2px 2px 2px gray;
+}
+h1{
+  font-size: 1.5rem;
+}
+.picture img{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    height: auto;
+    width: auto;
+    border-radius: 1rem;
+}
+.bodytext{
+  padding: 1rem;
+  border: 20cm;
+  margin-left: 1.5rem;
+  text-shadow: 2px 2px 2px gray;
+}
+main ul{
+  list-style: none;
+  padding: .2rem;
+  margin-left: 3.5rem;
+}
+ul{
+  text-align: justify;
+}
+main li{
+  padding: 3px;
+  font-size: 1.2rem;
+}
+li{
+  list-style-type: disc;
+}
+p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  font-size: 1.2rem;
+  margin-left: 2.5rem;
+}
+.foot{
+  border: 0.2rem; 
+  border-radius: 0.4rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: turquoise;
+  box-shadow: 2px 2px 2px gray;
+  margin: 0.5rem 0.5rem 0;
+}
