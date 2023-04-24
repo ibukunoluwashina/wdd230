@@ -1,7 +1,19 @@
 body{
   font-size: 62.5%;
 }
-
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .content {
+    width: 80%;
+    padding: 0;
+  }  
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .content {
+    width: 100%;
+  }
+}
 .content{ 
   font-family: 'baloo tamma 2' Arial, sans-serif;
 }
