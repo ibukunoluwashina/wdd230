@@ -80,14 +80,16 @@
   }
 .wireframe
 {
-display: flex;
-text-align: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
 }
 .image
 {
-margin:2px;
-border:2px;
-padding: 2px
+  width: fit-content;
+  margin:2px;
+  border:2px;
+  padding: 2px
 }
 h2
 {
