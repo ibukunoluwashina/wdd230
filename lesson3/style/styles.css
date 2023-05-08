@@ -1,3 +1,17 @@
+@media screen and (min-width: 650px)
+{
+    header a
+    {
+      gap: 200px;
+    }
+    nav{
+      display: flex;
+    }
+    .wireframe
+{
+  display: flex;
+}
+}
 .logo{
     width: 100%;
     border: 10px ;
@@ -5,7 +19,6 @@
   header a
   {
     display: flex;
-    gap: 200px;
     text-decoration: none;
     text-align: center;
     width: 100%;
@@ -24,7 +37,7 @@
   nav{
     /* border: 1px solid tomato; */
     text-align: center;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     justify-content: space-between;
     width: 100%;
@@ -80,7 +93,6 @@
   }
 .wireframe
 {
-  display: flex;
   text-align: center;
 }
 .image
