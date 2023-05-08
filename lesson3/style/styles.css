@@ -78,26 +78,20 @@
     background-color: white;
     border-radius: 10px;
   }
-.wireframe
-{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: space-between;
-    width: fit-content;
-}
-.image
-{
-  margin: 3px;
-  border: 2px;
-  padding: 3px;
-  width: 20%;
-}
-  @media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-      border: 2px;
-      margin: 10px;
-    }
+  .image {
+    float: left;
+    width: 20%;
+    padding: 5px;
+    margin: 5px;
+    border: 3px;
   }
+  
+  /* Clearfix (clear floats) */
+  .wireframe::after {
+    content: "";
+    clear: both;
+    display: table;
+    text-align: center;
+  }
+  
   
