@@ -78,9 +78,26 @@
     background-color: white;
     border-radius: 10px;
   }
+.wireframe
+{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+}
+.image
+{
+  margin: 3px;
+  border: 2px;
+  padding: 3px;
+  width: 20%;
+}
   @media screen and (max-width: 500px) {
     .column {
       width: 100%;
+      border: 2px;
+      margin: 10px;
     }
   }
   
