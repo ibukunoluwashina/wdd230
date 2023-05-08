@@ -82,10 +82,10 @@
 {
   display: flex;
   text-align: center;
-  align-items: center;
 }
 .image
 {
+  border-right: 2px;
   width: fit-content;
   margin:2px;
   border:2px;
