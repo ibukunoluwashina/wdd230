@@ -3,6 +3,7 @@
     header a
     {
       gap: 200px;
+      width: 100%;
     }
     nav{
       display: flex;
@@ -21,7 +22,7 @@
     display: flex;
     text-decoration: none;
     text-align: center;
-    width: 100%;
+    
     background-color: turquoise;
   }
   .logo{
