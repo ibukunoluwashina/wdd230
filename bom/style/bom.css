@@ -24,7 +24,14 @@ main {
 	display: flex;
 	flex-direction: column;
 }
-
+main
+{
+	width: fit-content;
+}
+.header
+{
+	display: flex;
+}
 input,
 button {
 	padding: 0.5rem;
@@ -47,9 +54,14 @@ button {
 	padding: 0.5rem;
 }
 
+label{
+	margin-top: 15px;
+}
 ul {
 	margin: 1rem;
+	padding: 1rem;
 	list-style: none;
+	border: 1px solid black;
 }
 
 li {
@@ -64,7 +76,7 @@ li {
 	}
 
 	main {
-		width: 320px;
+		width: 520px;
 	}
 }
 
