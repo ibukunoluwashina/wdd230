@@ -20,6 +20,7 @@ addButton.addEventListener("click", function() {
 
         deleteButton.addEventListener("click", function() {
             list.removeChild(li);
+            
         });
 
         

@@ -3,23 +3,33 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body
+{
+   width: 1200px;
+}
 
 header
    { 
       background-color: turquoise;
+      padding: 10px;
+      border: 2px;
+      margin: 10px;
    }
    .content
    {
       display: flex;
-      max-width: 1200px;
       background-color: turquoise;
       align-items: center;
-      gap: 10px;
+      gap: 500px;
+   }
+  .logo
+   {
+      display: flex;
    }
    header .image
    {
       padding: 10px;
-      border: 10px;
+      border: 1px;
       margin: 10px;
    }
    header .message
@@ -28,20 +38,84 @@ header
    }
    header h1
    {
-      font-size: 50px;
+      font-size: 30px;
    }
    header h2
    {
       font-size: 15px;
    }
+   .social-hamburger
+{
+   display: flex;
+}
+.social{
+   display: flex;
+}
+.social img{
+   border: 1px;
+   margin: 5px;
+   padding: 5px;
+   border-radius: 50%;
+}
    #primaryNav
    {
-      display: flex;
+      /* display: none; */
       list-style: none;
    }
+   
+#hamburgerBtn{
+   float: right;
+   width: 60px;
+   height: 60px;
+}
    nav ul li a
      {
         padding: .5rem 1rem;
         text-decoration: none;
         color:black;
      }
+
+#currentdate
+{
+   width: 95%;
+   margin: 10px;
+   border: 1px ;
+   padding: 5px;
+   text-align: center;
+   background-color: gray;
+}
+footer{
+   background-color: turquoise;
+   text-align: center;
+   padding: 10px;
+   border: 2px;
+   margin: 10px;
+}
+footer .adressimage
+{
+   display: flex;
+   gap: 20px;
+}
+
+.image{
+   padding: 10px;
+   border: 1px;
+   margin: 10px;
+}
+
+footer .info1{
+   display: flex;
+   gap: 500px;
+}
+
+footer h1{
+   font-size: 20px
+}
+
+footer h2{
+   font-size: 15px;
+}
+footer a{
+   text-decoration: none;
+   color: black;
+}
