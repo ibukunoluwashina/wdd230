@@ -3,10 +3,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
-body
+/* body
 {
    width: 1200px;
-}
+} */
 
 header
    { 
@@ -20,7 +20,6 @@ header
       display: flex;
       background-color: turquoise;
       align-items: center;
-      gap: 500px;
    }
   .logo
    {
@@ -59,7 +58,7 @@ header
 }
    #primaryNav
    {
-      /* display: none; */
+      
       list-style: none;
    }
    
@@ -84,6 +83,133 @@ header
    text-align: center;
    background-color: gray;
 }
+
+main{
+   padding: 10px;
+   margin: 10px;
+   border: 4px ;
+}
+
+.hero{
+    width: 100%;
+    height: auto;
+    border: 2px solid gray;
+    padding: 5px;
+    margin: 2px
+}
+.hero h2{
+    border: 2px;
+    padding: 5px;
+    margin: 2px
+}
+
+.event{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+.event h2 {
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.weather{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+.weather h2 {
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.news{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+.news h2 {
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.spot{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+.spotlight1{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+.spotlight2 h2 {
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.spotlight2{
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+.spotlight2 h2 {
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.spotlight3{
+   display: none;
+}
+
+.spotlight3 h2 {
+   display: none;
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+p{
+   border: 2px;
+   padding: 5px;
+   margin: 2px
+}
+
+.join{
+   display: none;
+   width: 100%;
+   height: auto;
+   border: 2px solid gray;
+   padding: 5px;
+   margin: 2px
+}
+
+main{
+   display: grid;
+   grid-template-columns: 1fr;
+}
 footer{
    background-color: turquoise;
    text-align: center;
@@ -91,21 +217,11 @@ footer{
    border: 2px;
    margin: 10px;
 }
-footer .adressimage
-{
-   display: flex;
-   gap: 20px;
-}
 
 .image{
    padding: 10px;
    border: 1px;
    margin: 10px;
-}
-
-footer .info1{
-   display: flex;
-   gap: 500px;
 }
 
 footer h1{
