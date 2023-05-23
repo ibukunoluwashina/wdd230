@@ -26,7 +26,7 @@
     }
 
     .social-hamburger{
-        gap: 50px;
+        gap: 10px;
     }
 
     footer .info1{
@@ -92,12 +92,33 @@
      .join h2 {
         border: 2px;
         padding: 5px;
-        margin: 2px
+        margin: 2px;
+        font-size: 22px;
      }
 
      .news{
         grid-column: 2/4;
         grid-row: 3/4;
+     }
+
+     nav ul li a
+     {
+        padding: .5rem 1rem;
+        text-decoration: none;
+        color:black;
+     }
+
+     nav{
+        background-color: turquoise;
+        padding-top: 20px;
+     }
+
+     nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #333;
+        border-top: 0;
      }
 
 }/* end of large */
