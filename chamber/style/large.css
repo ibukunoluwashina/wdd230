@@ -1,6 +1,15 @@
 /* 64em is also 1028px when base front is 16px */
 @media only screen and (min-width: 64rem){
 
+    header h1
+    {
+    font-size: 30px;
+    }
+    header h2
+    {
+    font-size: 15px;
+    }
+
     body{
         max-width: 1200px;
     }

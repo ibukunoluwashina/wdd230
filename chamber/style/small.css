@@ -25,7 +25,7 @@ header
    {
       display: flex;
    }
-   header .image
+   header picture
    {
       padding: 10px;
       border: 1px;
@@ -37,11 +37,11 @@ header
    }
    header h1
    {
-      font-size: 30px;
+      font-size: 20px;
    }
    header h2
    {
-      font-size: 15px;
+      font-size: 10px;
    }
 
    .social-hamburger
@@ -90,7 +90,8 @@ main{
     height: auto;
     border: 2px solid gray;
     padding: 5px;
-    margin: 2px
+    margin: 2px;
+    background-color: gray;
 }
 .hero h2{
     border: 2px;

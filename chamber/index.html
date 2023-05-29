@@ -15,7 +15,11 @@
     <header>
     <div class="content">
         <div class="logo">
-        <div class="image"><img src="image/akurechamber.png" alt="chamber image"></div>
+        <picture>
+        <source srcset="image/akurechamberbig.webp" media="(min-width: 800px )">
+        <source srcset="image/akurechambermedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
+        <img src="image/akurechambersmall.webp" alt="akure chamber image">
+        </picture>
         <div class="message">
         <h1>Akure</h1>
         <h2>Chamber of Commerse</h2>
@@ -23,12 +27,17 @@
     </div>
     <div class="social-hamburger">
         <div class="social">
-            <a href="https://facebook.com" target="_blank">
-                <img src="image/facebook.png" alt="fb icon">
-            </a>
-            <a href="https://twitter.com" target="_blank">
-                <img src="image/twitter.png" alt="twitter icon">
-            </a>
+            <picture>
+                <a href="https://facebook.com" target="blank">
+                <!-- <source srcset="image/facebookbig.webp" media="(min-width: 800px )">
+                <source srcset="image/facebookmedium.webp" media="(min-width: 500px ) and (max-width: 799px )"> -->
+                <img src="image/facebookmedium.webp" alt="facebook icon">
+                </a>
+                
+                <a href="https://twitter.com" target="blank">
+                    <img src="image/twitter.webp" alt="twitter icon">
+                </a>
+        </picture>
         </div>
 
         <nav>
@@ -47,7 +56,11 @@
     <main>
         <div class="hero">
             <h2>hero with site name and call to action</h2>
-            <img src="image/placeholder.png" alt="hero image">
+            <picture>
+                <source srcset="image/wdd230-orglarge.webp" media="(min-width: 800px )">
+                <source srcset="image/wdd230-orgmedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
+                <img src="image/wdd230-orgsmall.webp" alt="akure chamber image">
+            </picture>
         </div>
 
         <div class="event">

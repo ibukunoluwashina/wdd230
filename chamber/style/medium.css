@@ -1,6 +1,14 @@
 /* 2rem is also 560px when the base front is 16px */
 @media only screen and (min-width: 37.5em)  {
 
+header h1
+{
+   font-size: 30px;
+}
+header h2
+{
+   font-size: 15px;
+}
 footer .adressimage{
         display: flex;
         gap: 20px;
