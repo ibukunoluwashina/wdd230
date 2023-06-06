@@ -130,4 +130,18 @@
         border-top: 0;
      }
 
+     /* discovery page */
+
+     .space{
+        font-size: 17px;
+     }
+
+     .text{
+        font-size: 15px;
+     }
+
+     .content2:hover{
+        color: blanchedalmond;
+     }
+
 }/* end of large */

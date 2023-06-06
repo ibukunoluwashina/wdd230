@@ -17,3 +17,20 @@ const lazyLoadingObserver = new IntersectionObserver(lazyLoadingImage,{
     threshold: 0.9 
 });
 imgElements.forEach((img) => lazyLoadingObserver.observe(img));
+
+// Number of visits
+
+document.addEventListener("DOMContentLoaded", function() {
+    var lastVisit = localStorage.getItem(".lastVisit");
+    var currentDate = new Date().getTime();
+    var daysBetweenVisits = 0;
+  
+    if (lastVisit) {
+      lastVisit = parseInt(lastVisit);
+      daysBetweenVisits = Math.floor((currentDate - lastVisit) / (1000 * 60 * 60 * 24));
+    }
+  
+    localStorage.setItem("lastVisit", currentDate.toString());
+  
+    document.getElementById("daysBetweenVisits").innerHTML = "Days between visits: " + daysBetweenVisits;
+  });
