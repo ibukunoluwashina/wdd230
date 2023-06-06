@@ -289,6 +289,9 @@ footer picture{
 
 .weather{
    background-color: turquoise;
+   margin: 20px;
+   padding: 20px;
+   border: 1px;
 }
 
 .banner{
