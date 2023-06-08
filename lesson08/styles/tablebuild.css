@@ -50,6 +50,6 @@ tbody tr:nth-child(odd) {
 	background-color: var(--zebra);
 }
 
-th.col1{
+th:nth-child(1){
     background-color: var(--back);
 }
