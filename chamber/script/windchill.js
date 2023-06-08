@@ -1,4 +1,3 @@
-
 const temperatureElement = document.querySelector('.temperature');
 const descriptionElement = document.querySelector('.discription');
 const windSpeedElement = document.querySelector('.windspeed');
