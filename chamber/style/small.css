@@ -339,6 +339,9 @@ textarea{
    background-color: rgba(0, 0, 0, 0.1);
 }
 
+.thanks{
+   text-align: center;
+}
 /* main{
    display: grid;
    grid-template-columns: 1fr;
