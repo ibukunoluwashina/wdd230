@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Akure Chamber of Commerse</title>
+</head>
+<body>
+    <header>
+    <div class="banner">Come join us on thurday</div>
+    <div class="content">
+        <div class="logo">
+        <picture>
+        <source srcset="image/akurechamberbig.webp" media="(min-width: 800px )">
+        <source srcset="image/akurechambermedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
+        <img src="image/akurechambersmall.webp" alt="akure chamber image">
+        </picture>
+        <div class="message">
+        <h1>Akure</h1>
+        <h2>Chamber of Commerse</h2>
+        </div>
+    </div>
+    <div class="social-hamburger">
+        <div class="social">
+            <picture>
+                <a href="https://facebook.com" target="blank">
+                <!-- <source srcset="image/facebookbig.webp" media="(min-width: 800px )">
+                <source srcset="image/facebookmedium.webp" media="(min-width: 500px ) and (max-width: 799px )"> -->
+                <img src="image/facebookmedium.webp" alt="facebook icon">
+                </a>
+                
+                <a href="https://twitter.com" target="blank">
+                    <img src="image/twitter.webp" alt="twitter icon">
+                </a>
+        </picture>
+        </div>
+
+        <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+                <li><a href="discover.html">Discover</a></li>
+                <li class="active"><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>    
+            </ul>
+        </nav>
+    </div>
+    </div>
+        <div id ="currentdate"></div>
+    </header>
+    <main>
+
+        <h1>Become A Member</h1>
+    <form method="get" action="thanks.html">
+
+        <fieldset>
+            <legend>Applicant Information</legend>
+        <div class="toptop">
+            <div class="top1">
+            <label class="top"> First Name*: <input type="text" name="fname" required></label>
+            <label class="top"> Last Name*: <input type="text" name="lname" required></label>
+            <label class="top">Business Position Title: <input type="text" name="title" pattern="[a-zA-Z\- ]{7,}" placeholder="a-zA-Z\-"></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top"> Phone <input type="tel" name="phone" placeholder="08012345678"></label>
+            <label class="top"> Business Name/Title: <input type="text" name="business-name" required></label>
+            </div>
+            <div class="top2">
+            <label class="Level">Membership Level
+                <select name="Subject">
+                    <option>Please Select &#9662</option>
+                    <option value="np">NP/Non Profit(free)</option>
+                    <option value="Bronze">Bronze Membership($100)</option>
+                    <option value="silver">Silver Membership($170) $30 off</option>
+                    <option value="good">Gold Membership($250) $50 off</option>
+                </select>
+                </label>
+            </div>
+        </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Business Information</legend
+            <label class="top">Business Descripton:<textarea name="business-description" id="" cols="50" rows="10" placeholder="text...."></textarea></label>
+            <label class="top">Date Of Entry<input type="date" name="completeDate"></label>
+        </fieldset>
+            <input type="submit" value="Join Us" class="submitBtn">
+    </form>
+        
+    </main>
+    <footer>
+    <div class="info1">    
+    <div class="adressimage">
+        <picture>
+            <source srcset="image/akurechamberbig.webp" media="(min-width: 800px )">
+            <source srcset="image/akurechambermedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
+            <img src="image/akurechambersmall.webp" alt="akure chamber image">
+            </picture>
+        <div>
+        <h1>Akure Chamber of Commerce</h1>
+        <h2>1, Unity Road,</h2>
+        <h2>Okeogba, Akure.</h2>
+        </div>
+    </div>
+        <div class="info">
+         <h2>info@akrcommerse.org</h2>
+         <h2>+(234)80-3627-6017</h2>
+        
+         <span><img src="image/tempicon.png" alt=""></span><a href="https://goo.gl/maps/etjbYeyRqk2P254S8"> Map Location</a>
+        </div>
+    </div>
+        <hr>
+        <a href=""> &copy; 2023 Akure Chamber | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+</html>
