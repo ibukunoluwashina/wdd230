@@ -11,7 +11,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 header
    { 
       background-color: turquoise;
-      padding: 10px;
+      /* padding: 10px; */
       border: 2px;
       margin: 10px;
       width: 100%;
@@ -22,7 +22,7 @@ header
    {
       display: flex;
       background-color: turquoise;
-      align-items: center;
+      justify-content: space-between;
    }
 
   .logo
@@ -48,11 +48,7 @@ header
       font-size: 10px;
    }
 
-   .social-hamburger
-{
-   display: flex;
-}
-.social{
+.social picture{
    display: flex;
 }
 .social img{
@@ -67,11 +63,6 @@ header
       list-style: none;
    }
    
-/* #hamburgerBtn{
-   float: right;
-   width: 20px;
-   height: 4px;
-} */
 
 #currentdate
 {
@@ -342,10 +333,7 @@ textarea{
 .thanks{
    text-align: center;
 }
-/* main{
-   display: grid;
-   grid-template-columns: 1fr;
-} */
+
 footer{
    background-color: turquoise;
    text-align: center;
@@ -384,8 +372,11 @@ footer picture{
    text-align: center;
 }
 
-.banner{
-   display: none;
+#bannerElement.banner{
+  padding: 5px;
+  margin: 5px;
+  border: 1px;
+  font-size: 10px;
 }
 
 /* discovery page */

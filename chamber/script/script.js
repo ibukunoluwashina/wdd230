@@ -16,6 +16,17 @@ document.getElementById("lastdate").innerHTML = date;
     document.querySelector(".banner").style.display = "block"
 }
 
+// banner
+var bannerElement = document.getElementById('bannerElement');
+        var today = new Date().getDay(); 
+
+        if (today === 1 || today === 2) { 
+            bannerElement.innerText = "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+            bannerElement.style.display = "block"; 
+        } else {
+            bannerElement.style.display = "none"; 
+        }
+
 // discory page
 const imgElements = document.querySelectorAll("img[data-src]");
 

@@ -23,7 +23,7 @@
         padding: 5px;
         margin: 10px;
         border: 2px;
-        gap: 2px;
+        justify-content: space-evenly;
     }
 
     #primaryNav a {
@@ -118,8 +118,7 @@
      }
 
      nav{
-        background-color: turquoise;
-        padding-top: 20px;
+        background-color: gray;
      }
 
      nav ul li a {
