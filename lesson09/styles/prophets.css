@@ -50,3 +50,9 @@ h2{
     font-size: 15px;
     margin: 0 0 10px;
 }
+
+footer{
+    text-align: center;
+    background-color: #336699;
+    color: white;
+}
