@@ -69,9 +69,7 @@ const displayData=(data)=>{
 <p>${data.phoneNumber}</p>
 <a href="${data.website}"></a>
 <p>${data.membershipLevel}</p>
-<img src="${data.imageurl}"
- alt="${data.name} picture"
-  loading="lazy" width="340" height="440">
+<img class="image" src="${data.imageurl}" alt="${data.name} picture" loading="lazy" width="340" height="440">
 </section>`
 let container = document.querySelector('section');
 container.innerHTML += personData
