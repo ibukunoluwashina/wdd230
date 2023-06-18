@@ -438,7 +438,7 @@ main {
    /* max-width: 700px; */
    background-color: #fff;
    font-family: Roboto, Helvetica, sans-serif;
-   justify-content: center;
+   /* justify-content: center; */
 }
 
 .menu {
