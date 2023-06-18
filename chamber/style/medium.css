@@ -54,4 +54,34 @@ main{
     grid-column: 3/4;
     grid-row: 4/5;
    }
+
+   /* directory page */
+
+   section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 0;
+      padding: 0.25rem;
+      justify-content: center;
+   }
+
+   section section{
+      display: block;
+   }
+
+   .list section section{
+      display: grid;
+      grid-template-columns: 1fr 1fr ;
+      margin: 0;
+      padding: 0.25rem;
+   }
+
+   .list section {
+      display: block
+   }
+  
+
+   /* end of directory page */
+
+
 }/* end medium */

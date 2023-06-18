@@ -152,5 +152,32 @@
         justify-content: space-between;
      }
     
+/* diractory page */
+.list section {
+    display: block
+ }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+    justify-content: center;
+ }
+
+ section section{
+    display: block;
+ }
+
+ .list section section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+ }
+
+
+ /* directory page end */
+    
 
 }/* end of large */
