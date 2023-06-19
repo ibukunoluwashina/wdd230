@@ -69,7 +69,7 @@ const displayData=(data)=>{
   <h2>${data.name}</h2>
 <p>${data.address}</p>
 <p>${data.phoneNumber}</p>
-<a href="${data.website}"></a>
+<a href="${data.website}">website</a>
 <p>${data.membershipLevel}</p>
 <img class="image" src="${data.imageurl}" alt="${data.name} picture" loading="lazy" width="340" height="440">
 </section>`
