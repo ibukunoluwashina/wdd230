@@ -16,7 +16,11 @@ footer .adressimage{
      
 footer .info1{
     display: flex;
-    gap: 150px;
+    /* gap: 150px; */
+    justify-content: space-between;
+    margin: 15px;
+    padding: 5px;
+    border: 2px;
      }
 
 .content

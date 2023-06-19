@@ -51,7 +51,7 @@ imgElements.forEach((img) => lazyLoadingObserver.observe(img));
 
 
 // directory page 
-const url = '/chamber/data.json'
+const url = 'https://github.com/ibukunoluwashina/wdd230/blob/feb972433e2aab589bf8079c93d136a726f41d71/chamber/data.json'
 
 fetch(url)
 .then((result) => 
@@ -71,7 +71,7 @@ const displayData=(data)=>{
 <p>${data.membershipLevel}</p>
 <img class="image" src="${data.imageurl}" alt="${data.name} picture" loading="lazy" width="340" height="440">
 </section>`
-let container = document.querySelector('section');
+let container = document.querySelector('.directory');
 container.innerHTML += personData
 }
 
