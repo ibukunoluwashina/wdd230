@@ -334,6 +334,16 @@ textarea{
    text-align: center;
 }
 
+.top1{
+   width: 300px;
+}
+
+.top2{
+   width: 300px;
+   margin-top: 20px;
+}
+/*           footer    end            */
+
 footer{
    background-color: turquoise;
    text-align: center;
