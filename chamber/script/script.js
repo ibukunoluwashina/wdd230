@@ -51,7 +51,9 @@ imgElements.forEach((img) => lazyLoadingObserver.observe(img));
 
 
 // directory page 
-const url = '/lesson09/data.json'
+const url = '../lesson09/data.json';
+
+
 
 fetch(url)
 .then((result) => 
