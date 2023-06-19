@@ -51,7 +51,7 @@ imgElements.forEach((img) => lazyLoadingObserver.observe(img));
 
 
 // directory page 
-const url = 'https://github.com/ibukunoluwashina/wdd230/blob/feb972433e2aab589bf8079c93d136a726f41d71/chamber/data.json'
+const url = './chamber/data.json'
 
 fetch(url)
 .then((result) => 
