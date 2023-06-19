@@ -1,0 +1,92 @@
+    {"company": [
+      {
+        "name": "Pil Plantation Industry Limited",
+        "address": "Blk O, Plot 16, State Industrial Layout, Ilesa Rd. Akure",
+        "phoneNumber": "+234 904 200 0005",
+        "website": "https://plantationltd.net/",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/pilplantation.png?raw=true"
+      },
+      {
+        "name": "Olam Coop Cocoa Factory",
+        "address": "Ilesa-Benin Expressway, Akure, Ondo Nigeria",
+        "phoneNumber": "+234 806 227 9196",
+        "website": "https://www.olamagri.com/locations/nigeria.html",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/Olam-Agri.png?raw=true"
+      },
+      {
+        "name": "Centre for Cocoa Development Initiative",
+        "address": "2 Ondo Bye Pass, Akure, Ondo Nigeria",
+        "phoneNumber": "+234 803 045 5051",
+        "website": "https://www.cocoainitiative.org/",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/cocoainitiative.png?raw=true"
+      },
+      {
+        "name": "Castlat Group",
+        "address": "47, Oba Adesida Road, Akure, Ondo Nigeria",
+        "birthdate": "+234 8016 618 9454",
+        "website": "https://castlatgroup.com/",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/castlatgroup.png?raw=true"
+      },
+      {
+        "name": "Renewable Energy Network Solutions",
+        "address": "6, Road C, Obaile Estate, Akure North, Ondo Nigeria",
+        "phoneNumber": "+234 803 511 7967",
+        "website": "https://sustainablesolutions.energy/",
+        "membershipLevel": "Bronze Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/energysolution.png?raw=true"
+      },
+      {
+        "name": "First Bank, Nigeria",
+        "address": "Alagbaka, Akure",
+        "phoneNumber": "+234 708 062 5000",
+        "website": "https://www.firstbanknigeria.com/",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/firstbank.jpg?raw=true"
+      },
+      {
+        "name": "Union Bank PLC",
+        "address": "Alagbaka, Akure",
+        "phoneNumber": "01 271 6816",
+        "website": "https://www.unionbankng.com/",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/unionbank.png?raw=true"
+      },
+      {
+        "name": "Polaris Bank Limited",
+        "address": "47, Oba Adesida Road, Akure, Ondo Nigeria",
+        "phoneNumber": "+234 806 988 0000",
+        "website": "https://www.polarisbanklimited.com/",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/logo-new-small.png?raw=true"
+      },
+      {
+        "name": "Royal Bird Hotel Akure",
+        "address": "Alagbaka Estate, Ondo, Akure P.O. Box: 4225, Akure",
+        "phoneNumber": "+234 8033952631",
+        "website": "https://royalbirdshotels.com/",
+        "membershipLevel": "Silver Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/royalbirds_logo.jpg?raw=true"
+      },
+      {
+        "name": "Polaris Bank Limited",
+        "address": "Plot 68, Ola Akadiri Street/INEC Road, Alagbaka, Akure, Ondo",
+        "phoneNumber": "+234 704 473 8378",
+        "website": "https://www.continentintl.com/continentakurenigeria",
+        "membershipLevel": "NP/Non Profit",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/continenthotel.jpg?raw=true"
+      },
+      {
+        "name": "Elizade Smokin Hills Golf Resort",
+        "address": "Ilara Mokin, Akure",
+        "phoneNumber": "+234 (1) 493-6846",
+        "website": "https://www.golfpass.com/travel-advisor/courses/35013-elizade-smokin-hills-golf-resort",
+        "membershipLevel": "Gold Membership",
+        "imageurl": "https://github.com/ibukunoluwashina/wdd230/blob/main/elizade.png?raw=true"
+      }
+     
+    ]
+    }
