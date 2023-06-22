@@ -29,7 +29,7 @@ header
    {
       display: flex;
    }
-   header picture
+   header .picture
    {
       padding: 10px;
       border: 1px;
@@ -48,7 +48,7 @@ header
       font-size: 10px;
    }
 
-.social picture{
+.social .picture{
    display: flex;
 }
 .social img{
