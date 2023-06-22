@@ -113,9 +113,9 @@ main{
 .weather{
    width: 100%;
    height: auto;
-   border: 2px solid gray;
+   border: 2px;
    padding: 5px;
-   margin: 2px
+   margin: 2px;
 }
 
 .weather h2 {
