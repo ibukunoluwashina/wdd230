@@ -29,7 +29,8 @@ header
    {
       display: flex;
    }
-   header .picture
+
+   header picture
    {
       padding: 10px;
       border: 1px;
@@ -53,15 +54,19 @@ header
 }
 .social img{
    border: 1px;
-   margin: 5px;
+   margin-top: 30px;
    padding: 5px;
    border-radius: 50%;
 }
-   #primaryNav
-   {
-      
-      list-style: none;
-   }
+
+.social{
+   margin-right: 30px;
+}
+#primaryNav
+{
+   
+   list-style: none;
+}
    
 
 #currentdate
