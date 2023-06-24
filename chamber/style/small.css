@@ -49,19 +49,17 @@ header
       font-size: 10px;
    }
 
-.social picture{
+.social {
    display: flex;
+   margin-top: 30px;
 }
 .social img{
    border: 1px;
-   margin-top: 30px;
    padding: 5px;
    border-radius: 50%;
 }
 
-.social{
-   margin-right: 30px;
-}
+
 #primaryNav
 {
    
