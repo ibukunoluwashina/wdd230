@@ -51,9 +51,10 @@ header
 
 .social {
    display: flex;
-   margin-top: 30px;
 }
+
 .social img{
+   margin-top: 30px;
    border: 1px;
    padding: 5px;
    border-radius: 50%;
