@@ -49,7 +49,7 @@ header
       font-size: 10px;
    }
 
-.social .picture{
+.social picture{
    display: flex;
 }
 .social img{
