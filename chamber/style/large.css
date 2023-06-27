@@ -239,7 +239,7 @@
 
     .toptop{
         display: flex;
-        justify-content: space-between;
+        gap: 200px;
      }
     
 /* diractory page */

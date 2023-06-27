@@ -332,6 +332,7 @@ textarea{
    padding: .75rem;
    color: #555;
    background-color: rgba(0, 0, 0, 0.1);
+   width: 70%;
 }
 
 .thanks{
@@ -339,11 +340,11 @@ textarea{
 }
 
 .top1{
-   width: 300px;
+   width: 50%;
 }
 
 .top2{
-   width: 300px;
+   width: 50%;
    margin-top: 20px;
 }
 /*           footer    end            */

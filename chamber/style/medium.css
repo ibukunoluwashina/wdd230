@@ -188,5 +188,10 @@ main{
 
    /* end of directory page */
 
+   .toptop{
+      display: flex;
+      gap: 200px;
+   }
+
 
 }/* end medium */
