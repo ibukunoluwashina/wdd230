@@ -395,7 +395,7 @@ footer picture{
   font-size: 10px;
 }
 
-/* discovery page */
+/* discover page */
 
 .space{
    margin: 10px;
@@ -406,22 +406,13 @@ footer picture{
    font-size: 10px;
 }
 
-.content2{
-   display: flex;
-   justify-content: space-between;
-   gap: 10px;
-   margin: 10px;
-   border: 2px;
-}
-.section-lazy{
-   display: block;
+.lazy img{
+   width: 100%;
+   height: 100%;
 }
 
-.text{
-   width: 50%;
-   text-align: center;
-   margin-top: 180px;
-   font-size: 10px;
+.section-lazy{
+   display: block;
 }
 
 img{
@@ -430,8 +421,14 @@ img{
    /* box-shadow: 0px 0px 10px 10px #d3c4ce; */
 }
 
-.lazy-img{
-   filter: blur(10px);
+.text{
+   width: fit-content;
+   height: auto;
+   text-align: center;
+   margin: 10px;
+   padding: 10px;
+   border: 2px;
+   font-size: 10px;
 }
 
 .label{
@@ -549,3 +546,9 @@ img {
      height: 75px;
  }
 /* end directory */
+
+#daysSinceLastVisit{
+   padding: 5px;
+   margin: 5px;
+   border: 5px;
+}

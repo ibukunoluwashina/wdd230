@@ -6,6 +6,8 @@ function toggleMenu() {
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
 
+
+
 const d = new Date();
 document.getElementById("currentdate").innerHTML = d;
 
@@ -27,99 +29,7 @@ var bannerElement = document.getElementById('bannerElement');
             bannerElement.style.display = "none"; 
         }
 
-// discory page
-const imgElements = document.querySelectorAll("img[data-src]");
 
-const lazyLoadingImage = (entries, observer) => {
-    
-    entries.forEach((entry) => {
-        if (!entry.isIntersecting) return;
-        entry.target.src = entry.target.dataset.src;
-        entry.target.addEventListener('load', () =>{
-            entry.target.classList.remove('lazy-img')
-            observer.unobserve(entry.target);
-        });
-        console.log("called");
-    });
-};
-
-const lazyLoadingObserver = new IntersectionObserver(lazyLoadingImage,{
-    threshold: 0.9 
-});
-imgElements.forEach((img) => lazyLoadingObserver.observe(img));
-
-
-
-// directory page 
-const url = '../lesson09/data.json';
-
-
-
-fetch(url)
-.then((result) => 
-    result.json()
-).then(data=>data.forEach((data.company.forEach(data=>displayData(data))))).
-catch((err) => {
-    
-});
-
-
-const displayData=(data)=>{
-  let personData = `<section>
-  <h2>${data.name}</h2>
-<p>${data.address}</p>
-<p>${data.phoneNumber}</p>
-<a href="${data.website}">website</a>
-<p>${data.membershipLevel}</p>
-<img class="image" src="${data.imageurl}" alt="${data.name} picture" loading="lazy" width="340" height="440">
-</section>`
-let container = document.querySelector('.directory');
-container.innerHTML += personData
-}
-
-// directory gid
-
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-gridbutton.addEventListener("click", () => {
-	// example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-});
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-	display.classList.add("list");
-	display.classList.remove("grid");
-}
-
-
-// local storage
-
-const lastVisitKey = 'lastVisit';
-const currentDate = new Date(); 
-
-if (!localStorage.getItem(lastVisitKey)) {
- 
-  localStorage.setItem(lastVisitKey, currentDate);
-} else {
- 
-  const lastVisitDate = new Date(localStorage.getItem(lastVisitKey));
-  const timeDiff = Math.abs(currentDate - lastVisitDate);
-  const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24)); 
-  console.log('Days since last visit:', daysDiff *1);
- 
-  localStorage.setItem(lastVisitKey, currentDate);
-  
-  
-  const daysSinceLastVisitElement = document.getElementById('daysSinceLastVisit');
-  daysSinceLastVisitElement.textContent = `Days since last visit: ${daysDiff}`;
-}
 
 
 

@@ -16,7 +16,6 @@ footer .adressimage{
      
 footer .info1{
     display: flex;
-    /* gap: 150px; */
     justify-content: space-between;
     margin: 15px;
     padding: 5px;
@@ -58,6 +57,108 @@ main{
     grid-column: 3/4;
     grid-row: 4/5;
    }
+
+   /* discover page */
+
+   .con1{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con2{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con3{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con4{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con5{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con6{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      border: 2px;
+   }
+
+   .con1:hover{
+      color: blanchedalmond;
+   }
+
+   .con2:hover{
+      color: blanchedalmond;
+   }
+
+   .con3:hover{
+      color: blanchedalmond;
+   }
+
+   .con4:hover{
+      color: blanchedalmond;
+   }
+
+   .con5:hover{
+      color: blanchedalmond;
+   }
+
+   .con6:hover{
+      color: blanchedalmond;
+   }
+
+
+   .lazy{
+      margin: 5px;
+      padding: 5px;
+      border: 1px ;
+   }
+
+   .text{
+      width: auto;
+      height: auto;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      border: 2px;
+      font-size: 15px;
+   }
+
+   .lazy-img{
+      filter: blur(10px);
+      width: 100%;
+      height: 100%;
+   }
+
+   .space{
+      margin: 10px;
+      padding: 10px;
+      border: 2px;
+      align-items: center;
+      text-align: center;
+      font-size: 15px;
+   }
+
+  /* end of discover */
 
    /* directory page */
 
