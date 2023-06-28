@@ -553,3 +553,56 @@ img {
    margin: 5px;
    border: 5px;
 }
+
+/*                 contact us                       */
+
+.contact h1{
+   text-align: center;
+   font-size: 15px;
+}
+
+.contact h2 {
+   font-size: 15px;
+   margin-top: 40px;
+}
+
+.contact h3 {
+   font-size: 15px;
+}
+
+.contact p{
+   font-size: 15px;
+}
+
+.contact a {
+   font-size: 15px;
+}
+.contact{
+   background-color: aliceblue;
+}
+
+.contactform{
+   padding: 10px;
+   margin: 10px;
+}
+
+.contactform form{
+   width: 100%;
+}
+
+iframe{
+   margin-top: 40px;
+   width: 100%;
+}
+
+.contactaddress{
+   padding: 10px;
+   margin: 10px;
+   border: 10px;
+}
+
+fieldset h3 {
+   padding: 10px;
+   margin: 10px;
+   border: 2px;
+}

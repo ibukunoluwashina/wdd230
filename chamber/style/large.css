@@ -265,9 +265,34 @@
     margin: 0;
     padding: 0.25rem;
  }
+/* directory page end */
 
+/*                 contact us                  */
 
- /* directory page end */
+.contact h1{
+   font-size: 20px;
+}
+
+.contact h2 {
+   font-size: 20px;
+}
+
+.contact h3 {
+   font-size: 20px;
+}
+
+.contact p{
+   font-size: 20px;
+}
+
+.contact a {
+   font-size: 20px;
+}
+
+.contactform{
+   display: flex;
+   gap: 200px;
+}
     
 
 }/* end of large */
