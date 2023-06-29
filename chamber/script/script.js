@@ -28,10 +28,3 @@ var bannerElement = document.getElementById('bannerElement');
         } else {
             bannerElement.style.display = "none"; 
         }
-
-
-
-// blink
-
-
-// end of blink
