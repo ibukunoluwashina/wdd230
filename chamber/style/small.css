@@ -131,9 +131,11 @@ main{
 .news{
    width: 100%;
    height: auto;
-   border: 2px solid gray;
+   border: 2px ;
    padding: 5px;
-   margin: 2px
+   margin: 2px;
+   text-align: center;
+   background-color: turquoise;
 }
 
 .news h2 {
