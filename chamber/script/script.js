@@ -31,5 +31,7 @@ var bannerElement = document.getElementById('bannerElement');
 
 
 
+// blink
 
 
+// end of blink

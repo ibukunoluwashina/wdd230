@@ -104,7 +104,7 @@ main{
 .event{
    width: 100%;
    height: auto;
-   border: 2px solid gray;
+   /* border: 2px solid gray; */
    padding: 5px;
    margin: 2px
 }
@@ -198,11 +198,36 @@ p{
 .join{
    display: none;
    width: 100%;
-   height: auto;
-   border: 2px solid gray;
-   padding: 5px;
-   margin: 2px;
+   height: 100%;;
+   margin: 0px;
    font-size: 2rem;
+   background-color: gray;
+   text-align: center;
+   animation-name: join;
+   animation-duration: 4s;
+}
+
+@keyframes join {
+   from {background-color: gray;}
+   to {background-color: turquoise;}
+ }
+
+.join a{
+   text-decoration: none;
+   text-align: center;
+   color: black;
+   padding: 20px;
+   margin: 20px;
+   border: 2px solid black;
+   border-radius: 10px;
+}
+
+.join p{
+   padding-top: 20px;
+   font-size: 20px;
+}
+.joina{
+   padding-top: 30px;
 }
 
 nav button{
@@ -383,7 +408,7 @@ footer picture{
 
 .weather{
    background-color: turquoise;
-   margin: 1px;
+   margin: 0px;
    padding: 1px;
    border: 1px;
    text-align: center;
@@ -503,8 +528,18 @@ section {
    flex-direction: column;
 }
 
+.hero{
+   text-align: center;
+}
 
+.event{
+   text-align: center;
+   background-color: gray;
+}
 
+.event h2{
+   color: white;
+}
 .list section > * {
    margin: 0 1rem;
 }
