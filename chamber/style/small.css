@@ -413,7 +413,7 @@ footer picture{
 
 
 .weather{
-   background-color: turquoise;
+   background-color:gray;
    margin: 0px;
    padding: 1px;
    border: 1px;
@@ -540,7 +540,7 @@ section {
 
 .event{
    text-align: center;
-   background-color: gray;
+   background-color: turquoise;
 }
 
 .event h2{
