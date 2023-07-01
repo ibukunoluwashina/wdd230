@@ -94,7 +94,7 @@ main{
 
 .hero img {
    width: 100%;
-   /* height: 100%; */
+   height: 100%;
    object-fit: cover;
  }
 
@@ -229,8 +229,9 @@ p{
 }
 
 .join p{
-   padding-top: 20px;
+   padding: 30px;
    font-size: 20px;
+   border: 5px;
 }
 .joina{
    padding-top: 30px;
@@ -409,8 +410,6 @@ footer a{
 footer picture{
    margin: 15px;
 }
-
-
 
 .weather{
    background-color:gray;
@@ -646,4 +645,107 @@ fieldset h3 {
    padding: 10px;
    margin: 10px;
    border: 2px;
+}
+
+/*        spotlight             */
+.spot{
+   height: 500px;
+   width: auto;
+   background-color: gray;
+}
+
+.spotlight1{
+   text-align: center;
+   background-color: turquoise;
+}
+
+.spotlight2{
+   text-align: center;
+   background-color: turquoise;
+}
+
+.spotlight3{
+   text-align: center;
+   background-color: turquoise;
+}
+
+h2#spotlight1-title{
+   margin: 10px;
+   border: 2px;
+}
+
+h2#spotlight2-title{
+   margin: 10px;
+   border: 2px;
+}
+
+h2#spotlight3-title{
+   margin: 10px;
+   border: 2px;
+}
+
+h2#spotlight1-title{
+   font-size: 15px;
+}
+
+h2#spotlight2-title{
+   font-size: 15px;
+}
+
+h2#spotlight3-title{
+   font-size: 15px;
+}
+
+p#spotlight1-grade{
+   font-size: 12px;
+}
+
+p#spotlight2-grade{
+   font-size: 12px;
+}
+
+p#spotlight3-grade{
+   font-size: 12px;
+}
+
+p#spotlight1-phone{
+   font-size: 12px;
+}
+
+p#spotlight2-phone{
+   font-size: 12px;
+}
+
+p#spotlight3-phone{
+   font-size: 12px;
+}
+
+.spotlight1{
+   width: auto;
+   height: 235px;
+}
+
+.spotlight2{
+   width: auto;
+   height: 235px;
+}
+
+.spotlight3{
+   width: 100%;
+   height: 235px;
+}
+
+#spotlight1-image{
+   width: 100px;
+   max-height: 50px;
+}
+
+#spotlight2-image{
+   width: 100px;
+   max-height: 50px;
+}
+
+#spotlight3-image{
+   width: 100px;
+   max-height: 50px;
 }
