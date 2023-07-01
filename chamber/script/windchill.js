@@ -6,23 +6,30 @@ const windChillElement = document.querySelector('.windchill');
 
 async function fetchWeatherData(city) {
   const apiKey = '2a6e95d39acf5cafb24b6dacd317642a'; 
-  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+  const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=imperial`;
 
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
 
-    const temperature = `${data.main.temp}°C`;
+    const temperature = `${data.main.temp}°F`;
     const iconCode = data.weather[0].icon;
     const iconUrl = `http://openweathermap.org/img/wn/${iconCode}.png`;
     const description = data.weather[0].description;
-    const windSpeed = `${data.wind.speed} m/s`;
+    const windSpeed = `${data.wind.speed} k/h`;
     const windChill = calculateWindChill(data.main.temp, data.wind.speed);
 
     temperatureElement.innerHTML = `<img src="${iconUrl}" alt="Weather Icon"> ${temperature}`;
     descriptionElement.textContent = description;
     windSpeedElement.textContent = windSpeed;
-    windChillElement.textContent = windChill ? `${windChill}°C` : 'N/A';
+
+    // Check if input values meet requirements
+    if (temperature <= 50 && windSpeedInput > 3.0) {
+      const customWindChill = calculateWindChill(temperature, windSpeedInput);
+      windChillElement.textContent = `${customWindChill}°C`;
+    } else {
+      windChillElement.textContent = 'N/A';
+    }
   } catch (error) {
     console.log('Error fetching weather data:', error);
   }
