@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/small.css">
+    <link rel="stylesheet" href="style/medium.css">
+    <link rel="stylesheet" href="style/large.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Akure Chamber of Commerse</title>
+</head>
+<header>
+    <div class="banner"  id="bannerElement"></div>
+    <div class="content">
+        <div class="logo" >
+            <a href="index.html">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="image/akurechamberbig.webp">
+                    <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/akurechambermedium.webp">
+                    <img src="image/akurechambersmall.webp" alt="akure chamber image" style="width:auto;">
+                </picture>
+                </a>
+        <div class="message">
+        <h1>Akure</h1>
+        <h2>Chamber of Commerse</h2>
+        </div>
+    </div>
+
+    
+        <div class="social">
+            
+                <a href="https://facebook.com">
+                <picture>
+                <source media="(min-width: 800px)" srcset="image/facebookbig.webp">
+                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/facebookmedium.webp">
+                <img src="image/facebooksmall.webp" alt="social media picture" style="width:auto;">
+                </picture>  
+                </a>
+                
+                <a href="https://twitter.com">
+                <picture>
+                <source media="(min-width: 800px)" srcset="image/twitterbig.webp">
+                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/twittermedium.webp">
+                <img src="image/twitter.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+            
+        </div>
+    </div>
+    
+    <div id ="currentdate"></div>
+
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="active"><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="contact.html">Contact</a></li>    
+        </ul>
+    </nav>
+    </header>
+    <main>
+        
+    
+
+    <div id="daysSinceLastVisit"></div>
+
+    </main>
+    <footer>
+    <div class="info1">    
+    <div class="adressimage">
+        <picture>
+            <source srcset="image/akurechamberbig.webp" media="(min-width: 800px )">
+            <source srcset="image/akurechambermedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
+            <img src="image/akurechambersmall.webp" alt="akure chamber image">
+            </picture>
+        <div>
+        <h1>Akure Chamber of Commerce</h1>
+        <h2>1, Unity Road,</h2>
+        <h2>Okeogba, Akure.</h2>
+        </div>
+    </div>
+        <div class="info">
+         <h2>info@akrcommerse.org</h2>
+         <h2>+(234)80-3627-6017</h2>
+        
+         <span><img src="image/tempicon.png" alt=""></span><a href="https://goo.gl/maps/etjbYeyRqk2P254S8"> Map Location</a>
+        </div>
+    </div>
+        <hr>
+        <a href=""> &copy; 2023 Akure Chamber | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
+    </footer>
+    <script src="script/script.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+</html>
