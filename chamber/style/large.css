@@ -229,7 +229,6 @@
         margin: 5px;
         padding: 5px;
         border: 1px ;
-        /* filter: blur(10px); */
      }
 
      .text{
@@ -323,7 +322,7 @@
  }
 /* directory page end */
 
-/*                 contact us                  */
+/*     contact us     */
 
 .contact h1{
    font-size: 20px;

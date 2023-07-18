@@ -1,0 +1,483 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.content{
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    text-align: center;
+}
+
+#output-area{
+   margin: 10px;
+   padding: 10px;
+   border: 10px;
+}
+
+.logo{
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+}
+
+.logo h1{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.social{
+    margin: 10px;
+    border: 2px;
+    padding: 10px;
+}
+
+.contact p{
+   text-align: center;
+   padding: 10px;
+   border: 10px;
+   margin: 10px;
+}
+
+.contactaddress P{
+   text-align: left;
+}
+ 
+.social img{
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px;
+}
+
+.order p{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid orange;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    list-style: none;
+}
+
+
+ .info1{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 1px;
+ }
+
+ .info{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .adressimage{
+    margin-left: 5px;
+    font-size: 7px;
+    gap: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /*      hamburger        */
+ nav button{
+   margin: .2rem 2vw;
+   background: transparent;
+   border: none;
+}
+
+/* nav
+{
+   background-color: gray;
+} */
+
+nav ul{
+   padding: 0;
+   margin:  0;
+}
+
+nav ul{
+   display: none;
+}
+
+nav ul.open{
+   display: block;
+}
+
+#hamburgerBtn span:nth-child(1){display: block;}
+#hamburgerBtn span:nth-child(2){display: none;}
+
+#hamburgerBtn.open span:nth-child(1){display: none;}
+#hamburgerBtn.open span:nth-child(2){display: block;}
+
+nav ul li a {
+   display: block;
+   padding: .8rem 2vw;
+   text-decoration: none;
+   /* color: #333; */
+   /* border-top: 1px solid rgba(0, 0, 0, 0.5); */
+}
+
+/* nav ul li a:hover {
+   background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.order p:hover{
+   background-color: orange;
+}
+
+/*       end of hamburger       */
+ footer{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+    background-color: green;
+ }
+
+ .about{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid green;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: green;
+ }
+
+ .bountifood picture{
+    padding: 10px;
+    margin: 10px;
+    border: 2px;
+   width: 50%;
+   height: 50%;
+ }
+
+  
+
+ .bountifood p{
+    text-align: center;
+    width: auto;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 2px;
+ }
+
+ iframe{
+    width: 100%;
+ }
+
+ .card{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; */
+    background-color: orange;
+ }
+
+ .weatherdays{
+   text-align: center;
+ }
+
+ .diagram img{
+    margin: 10px;
+    padding: 10px;
+    border: 5px;
+    background-color: green;
+ }
+
+ .text{
+    align-content: center;
+    text-align: center;
+    background-color: orange;
+    border: 2px solid green;
+ }
+
+ /* .orderplaced{
+    padding: 10px;
+    border: 5px;
+    margin: 50% 10%;
+ } */
+
+ .text p{
+    padding: 10px;
+    margin: 10px;
+    border: 5px;
+ }
+
+ /* .orderplaced h2{
+    margin: 5px;
+    border: 2px;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: green;
+ } */
+
+ .diagram{
+   padding: 10px;
+   margin: 10px;
+   border: 2px solid green;
+ }
+
+.weather-card-container{
+   padding: 10px;
+   margin: 10px;
+   border: 2px solid green;
+}
+
+.bountifulpicture{
+   padding: 10px;
+   margin: 10px;
+   border: 2px;
+}
+
+.county-img{
+   width: 100%;
+   height: 100%;
+}
+
+.lazy img{
+   width: 100%;
+   height: 100%;
+}
+
+
+/*           form           */
+
+form{
+   padding: 10px;
+   margin: 10px;
+   border: 2px ;
+   width: 100%;
+}
+
+
+input#first-name{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+   border-left: 6px solid green;
+   background-color: aliceblue;
+}
+
+input#email{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+   border-left: 6px solid green;
+   background-color: aliceblue;
+}
+
+input#phone-number{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+   border-left: 6px solid green;
+   background-color: aliceblue;
+}
+
+
+
+label {
+   display: block;
+    padding-top: 1rem;
+    color: #9c2c13;
+    font-size: 15px;
+}
+
+select#fruit-1{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+}
+
+select#fruit-2{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+}
+
+select#fruit-3{
+   width: 100%;
+   height: 30px;
+   border-radius: 3px;
+}
+
+textarea#special-instructions{
+   width: 100%;
+   height: 300px;
+   border-radius: 3px;
+}
+
+label.top1{
+   width: 60%;
+   border: 2px;
+}
+
+label.top2{
+   width: 60%;
+   border: 2px;
+}
+
+input{
+   width: 100px;
+   padding: 10px;
+   margin: 10px;
+   border: 2px;
+   background-color: orange;
+   border-radius: 3px;
+}
+
+input:hover{
+   background-color: green;
+}
+
+/*    contact us     */
+
+.contact h1{
+   text-align: center;
+   font-size: 15px;
+}
+
+.contact h2 {
+   font-size: 15px;
+   margin-top: 40px;
+}
+
+.contact h3 {
+   font-size: 15px;
+}
+
+.contact p{
+   font-size: 15px;
+}
+
+.contact a {
+   font-size: 15px;
+}
+.contact{
+   background-color: aliceblue;
+}
+
+.contactform{
+   padding: 10px;
+   margin: 10px;
+}
+
+.contactform form{
+   width: 100%;
+}
+
+iframe{
+   margin-top: 40px;
+   width: 100%;
+}
+
+.contactaddress{
+   padding: 10px;
+   margin: 10px;
+   border: 10px;
+}
+
+fieldset h3 {
+   padding: 10px;
+   margin: 10px;
+   border: 2px;
+}
+
+label.top input{
+   width: 60%;
+   height: 40px;
+   border-radius: 5px;
+}
+
+fieldset{
+   width: 100%;
+}
+
+.contact{
+   justify-content: center;
+}
+
+label.top textarea{
+   width: 100%;
+   border-radius: 5px;
+}
+
+input.submitBtn{
+   padding: 10px;
+   margin: 10px;
+   border: 10px;
+   border-radius: 3px;
+   background-color: orange;
+}
+
+input.submitBtn:hover{
+   background-color: green;
+}
+
+label.top input{
+   width: 70%;
+   background-color: white;
+}
+
+/* weather card */
+
+.weather-card {
+   width: 100%;
+   background-color: green;
+   padding: 20px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   font-family: Arial, sans-serif;
+   text-align: center;
+ }
+ .weather-icon {
+   width: 100px;
+   height: 100px;
+   margin-bottom: 10px;
+ }
+ .weather-text {
+   font-size: 16px;
+   margin-bottom: 5px;
+ }
+
+
+
+
+
+ .forecast-card {
+   width: 100%;
+   background-color: #f0f0f0;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   font-family: Arial, sans-serif;
+   text-align: center;
+ }
+ .forecast-date {
+   font-size: 18px;
+   font-weight: bold;
+   margin-bottom: 10px;
+ }
+ .forecast-temp {
+   font-size: 16px;
+ }
+
+ h1{
+   text-align: center;
+   font-family:  Arial, sans-serif;
+ }
+
+ #forecast-container{
+   display: block;
+   width: 100%;
+   padding: 10px;
+   margin: 10px;
+   border: 3px;
+ }
+
+ h1{
+   font-size: 15px;
+ }

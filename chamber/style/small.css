@@ -108,7 +108,6 @@ main{
 .event{
    width: 100%;
    height: auto;
-   /* border: 2px solid gray; */
    padding: 5px;
    margin: 2px
 }
@@ -479,10 +478,8 @@ img{
 main {
    margin: 0 auto;
    padding: 0.5rem;
-   /* max-width: 700px; */
    background-color: #fff;
    font-family: Roboto, Helvetica, sans-serif;
-   /* justify-content: center; */
 }
 
 .menu {
@@ -594,7 +591,7 @@ img {
    border: 5px;
 }
 
-/*                 contact us                       */
+/*    contact us     */
 
 .contact h1{
    text-align: center;

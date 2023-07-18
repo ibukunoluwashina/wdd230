@@ -4,27 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/small.css">
-    <link rel="stylesheet" href="style/medium.css">
-    <link rel="stylesheet" href="style/large.css">
-    <link rel="icon" href="favicon.ico">
-    <title>Akure Chamber of Commerse</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful food</title>
 </head>
+<body>
 <header>
-    <div class="banner"  id="bannerElement"></div>
+    <!-- <div class="banner"  id="bannerElement"></div> -->
     <div class="content">
         <div class="logo" >
-            <a href="index.html">
+            <a href="bountifulfood.html">
                 <picture>
-                    <source media="(min-width: 800px)" srcset="image/akurechamberbig.webp">
-                    <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/akurechambermedium.webp">
-                    <img src="image/akurechambersmall.webp" alt="akure chamber image" style="width:auto;">
+                    <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                    <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                    <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
                 </picture>
                 </a>
         <div class="message">
-        <h1>Akure</h1>
-        <h2>Chamber of Commerse</h2>
+        <h1>Bountiful Food</h1>
         </div>
     </div>
 
@@ -33,68 +32,224 @@
             
                 <a href="https://facebook.com">
                 <picture>
-                <source media="(min-width: 800px)" srcset="image/facebookbig.webp">
-                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/facebookmedium.webp">
-                <img src="image/facebooksmall.webp" alt="social media picture" style="width:auto;">
+                <img src="images/facebooksmall.webp" alt="social media picture" style="width:auto;">
                 </picture>  
                 </a>
                 
                 <a href="https://twitter.com">
                 <picture>
-                <source media="(min-width: 800px)" srcset="image/twitterbig.webp">
-                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="image/twittermedium.webp">
-                <img src="image/twitter.webp" alt="social media picture" style="width:auto;">
+                <img src="images/twitter.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+
+                <a href="https://instagram.com">
+                <picture>
+                <img src="images/instgram.webp" alt="social media picture" style="width:auto;">
                 </picture>
                 </a>
             
         </div>
+
+        <div class="order"><a href="facebook.com"></a><p>Make Your Own Fruit Drink Mix</p></div>
+
     </div>
     
-    <div id ="currentdate"></div>
+    <!-- <div id ="currentdate"></div> -->
 
     <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
         <ul id="primaryNav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li class="active"><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
-            <li><a href="contact.html">Contact</a></li>    
+            <li><a href="bountifulfood.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <!-- <li><a href="discover.html">Menu</a></li> -->
+            <li class="active"><a href="contactus.html">About Us</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li>     -->
         </ul>
     </nav>
     </header>
     <main>
+        <div class="orangecounty">
+            <div class="about">
+            <h2>About Orange County</h2>
+            <p>According to the U.S. Census Bureau, Orange county has a total area of 948 sq mi (2,460 km2), of which 791 sq mi (2,050 km2) is 
+               land and 157 sq mi (410 km2) (16.6%) is water. It is the smallest county by area in Southern California, being just over 
+               40% the size of the region's next smallest county, Ventura. The average annual temperature is about 68 °F (20 °C).
+               Orange County is bordered on the southwest by the Pacific Ocean, on the north by Los Angeles County, on the northeast by San 
+               Bernardino County, on the east by Riverside County, and on the southeast by San Diego County.</p>
+            </div>
+        </div>
+
+        <div class="bountifulpicture">
+
+            <div class="county">
+            <img class="county-img" src="images/orangecountymedium.webp" data-src="images/orangecountylarge.webp" alt="fruit 6 image">
+            </div>
+
+            <div class="weather-card">
+                <h2>Carlsbad, CA Weather Summary</h2>
+                <img class="weather-icon" src="" alt="Weather Icon">
+                <p class="weather-text">Temperature: <span id="temperature"></span> °K</p>
+                <p class="weather-text">Condition: <span id="condition"></span></p>
+                <p class="weather-text">Humidity: <span id="humidity"></span>%</p>
+              </div>
+            
         
+    </div>
+
+    <h1> Three Days Temperature Forecast - Carlsbad, CA</h1>
+  <div id="forecast-container"></div>
+
     
+    <div class="section-lazy">
 
-    <div id="daysSinceLastVisit"></div>
+        <div class="con1">
 
+        <div class="lazy">
+
+        <img class="lazy-img" src="images/lazyimage6small.webp" data-src="images/lazyimage6.webp" alt="fruit 6 image">
+         </div>
+
+        <div class="text"><p>Bountiful Foods is small business specializing in organic, locally grown foods. physically located in Carlsbad, 
+            California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego. Our company 
+            sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. 
+            We caters to walk in traffic in our storefront in Carlsbad and, of course, our food trucks. 
+            We deliver and manage those orders on the phone and via the website. Our mission is to provide fresh and healthy organic food options.</p></div>
+    
+        </div>
+
+        <div class="con2">
+            <div class="lazy">
+                <img class="lazy-img" src="images/lazyimage5small.webp" data-src="images/lazyimage5.webp" alt="fruit 4 image">
+             </div>
+
+                <div class="text">Grapefruit and strawberries are also some of our top vitamin C foods (containin
+                    g more C than oranges!) that can help boost immunity and fight off sickness. 
+                    Rich in both vitamins A and C, strawberry seeds also contain minerals that support immune function. this combination 
+                is in our fruit pakage mixture called the Immune-boosting plate</div>
+            </div>
+
+        <div class="con3">
+
+            <div class="lazy">
+                <img class="lazy-img" src="images/lazyimage4small.webp" data-src="images/lazyimage4.webp" alt="fruit 1 image">
+            </div>
+
+            <div class="text">We also have a fruit mixture called Antioxidant plate, this a mixture of Fig, red grape, pomegranate
+                The resveratrol in red grapes — and red wine — offers powerful antioxidant and anti-aging properties that help combat 
+                disease and signs of aging. Grapes are also high in lutein and zeaxanthin, which keeps our vision strong and can minimize 
+                the harmful effects of ultraviolet rays. Pomegranates contain higher levels of antioxidants than most fruits and can help 
+                to reverse free-radical skin damage. Figs are not only dangerously delicious — they are also rich in minerals including 
+                potassium, calcium, magnesium, iron, and copper and they are a great source of vitamins A, E, and K. Incorporate some of 
+                these antioxidant fruits on your plate to help you fight disease, age gracefully, and keep strong.
+
+.</div>
+            </div>
+
+        <div class="con4">
+
+            <div class="lazy">
+                <img class="lazy-img" src="images/lazyimage3small.webp" data-src="images/lazyimage3.webp" alt="fruit 3 image">
+            </div>
+
+                <div class="text">the mixture of fruit call the Detoxifying plate contains Goji berry, watermelon, lemon We can’t detoxify without 
+                    the help of foods that will hydrate and flush toxins out of the system. So, let’s start with watermelon, which is 92 percent 
+                    water and also contains a major detoxifying agent called glutathione. It is also a source of lycopene and vitamins A and C, 
+                    which further aid in detoxing and fighting free radicals. Super alkaline upon digestion, lemon is also a strong detoxifier and 
+                    has antibacterial and antiviral qualities. I like to squeeze it over my fruit, add it to green juice (with lots of parsley and 
+                    cucumber for a major de-bloating combination), or drink it with warm water first thing in the morning to help cleanse the body 
+                    and get the digestive system going. And let’s not forget goji berries. These little guys are a great source of antioxidants, vitamins 
+                    (A, B, C, and E), iron, and choline, which the liver needs for detoxification processes.
+                </div>
+            </div>
+
+        <div class="con5">
+
+            <div class="lazy">
+                <img class="lazy-img" src="images/lazyimage2small.webp" data-src="images/lazyimage2.webp" alt="fruit 4 image">
+            </div>
+
+            <div class="text">The Beauty plate mixture contains Blackberry, papaya, cantaloupe Here’s what you should be eating on the morning before your 
+                next big event!Papaya is full of antioxidants and nutrients that assist in the production of collagen. It also contains an enzyme called 
+                papain that helps to counter skin damage. Blackberries are delicious low-sugar fruits that are packed with antioxidants and vitamins A and C.
+                We don’t want to miss out on cantaloupe. It contains beta-carotene, which is converted into vitamin A in the body and helps make our skin 
+                glow and our hair strong and shiny.
+            </div>
+             </div>
+
+        <div class="con6">
+
+            <div class="lazy">
+                <img class="lazy-img" src="images/lazyimage1small.webp" data-src="images/lazyimage1.webp" alt="akure symbol">
+            </div>
+
+                <div class="text">Energy plate is a misture of fruit containing Banana, avocado, apple  The next time you’re looking for some fuel or wanting to 
+                    charge up your pre- or post-workout, throw together this energy plate. These nutrient-rich fruits (yes, avocado is a fruit) will replenish and 
+                    keep you going for hours. Bananas provide us with quick energy and are a great choice pre-workout. The healthy fats in avocados slow down digestion 
+                    and are better to incorporate into your post-workout meal. Apples are high in fiber and will keep you full for long periods of time. Take your pick 
+                    or choose all three… If you're looking for a burst of energy, this plate is for you.</div>
+            </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425168.74078669486!2d-117.7803964!3d33.64081399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc925c54d5f7cf%3A0xdea6c3618ff0d607!2sOrange%20County%2C%20CA%2C%20USA!5e0!3m2!1sen!2sng!4v1688645036192!5m2!1sen!2sng
+        " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+        <div class="diagram">
+            
+                <img src="images/cardimage.webp" alt="Bountiful food image" style="width:auto;">
+
+        </div>
+
+        <div class="text">
+            <p>Bountiful takes special orders, as well as offers special holiday menu orders which are available for pick-up or delivery. 
+                Nationwide next-day and two day shipping also available.</p>
+        </div>
+
+        <div class="orderplaced">
+            <h2>Order Placed</h2>
+        </div> -->
+
+    </div>
     </main>
     <footer>
     <div class="info1">    
     <div class="adressimage">
-        <picture>
-            <source srcset="image/akurechamberbig.webp" media="(min-width: 800px )">
-            <source srcset="image/akurechambermedium.webp" media="(min-width: 500px ) and (max-width: 799px )">
-            <img src="image/akurechambersmall.webp" alt="akure chamber image">
+        <a href="index.html">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
             </picture>
+            </a>
         <div>
-        <h1>Akure Chamber of Commerce</h1>
-        <h2>1, Unity Road,</h2>
-        <h2>Okeogba, Akure.</h2>
+        <h1>Bountiful Food</h1>
+        <h2>San Diego, CA 92101</h2>
+        <h2>Banker's Hill.</h2>
         </div>
     </div>
         <div class="info">
-         <h2>info@akrcommerse.org</h2>
-         <h2>+(234)80-3627-6017</h2>
+         <h2>info@bountifulfruits.com</h2>
+         <h2>+1(619) 233-3901</h2>
         
-         <span><img src="image/tempicon.png" alt=""></span><a href="https://goo.gl/maps/etjbYeyRqk2P254S8"> Map Location</a>
+         <!-- <span><img src="image/tempicon.png" alt=""></span><a href=""> Map Location</a> -->
         </div>
     </div>
         <hr>
-        <a href=""> &copy; 2023 Akure Chamber | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
+        <a href=""> &copy; 2023 Bountiful Food | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
     </footer>
+    <script src="script/weather.js"></script>
     <script src="script/script.js"></script>
-    <script src="script/windchill.js"></script>
+    <script src="script/lazy.js"></script>
+    <script src="script/temperature.js"></script>
 </body>
 </html>

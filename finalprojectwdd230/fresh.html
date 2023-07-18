@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful food</title>
+</head>
+<body>
+<header>
+    <!-- <div class="banner"  id="bannerElement"></div> -->
+    <div class="content">
+        <div class="logo" >
+            <a href="bountifulfood.html">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                    <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                    <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
+                </picture>
+                </a>
+        <div class="message">
+        <h1>Bountiful Food</h1>
+        </div>
+    </div>
+
+    
+        <div class="social">
+            
+                <a href="https://facebook.com">
+                <picture>
+                <img src="images/facebooksmall.webp" alt="social media picture" style="width:auto;">
+                </picture>  
+                </a>
+                
+                <a href="https://twitter.com">
+                <picture>
+                <img src="images/twitter.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+
+                <a href="https://instagram.com">
+                <picture>
+                <img src="images/instgram.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+            
+        </div>
+
+        <div class="order"><a href="facebook.com"></a><p>Make Your Own Fruit Drink Mix</p></div>
+
+    </div>
+    
+    <!-- <div id ="currentdate"></div> -->
+
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="bountifulfood.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <!-- <li><a href="discover.html">Menu</a></li> -->
+            <li class="active"><a href="contactus.html">About Us</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li>     -->
+        </ul>
+    </nav>
+    </header>
+    <main>
+        <div class="fieldset">
+        <fieldset>
+           <div class="form"> 
+            <form id="fruit-order-form">
+            <label class="top1">
+              <label for="first-name">First Name* <input type="text" id="first-name" name="first-name" required><br><br></label>
+          
+              <label for="email">Email* <input type="email" id="email" placeholder="someone@gmail.com" name="email" required><br><br></label>
+          
+              <label for="phone-number">Phone Number*<input type="tel" id="phone-number" placeholder="+1(619) 233-3901" name="phone-number" required><br><br></label>
+              </label>
+          
+            <label class="top2">
+              <label for="fruit-1">Fruit 1*<select id="fruit-1" name="fruit-1" required><option value="" disabled selected>Select a fruit</option></select><br><br></label>
+          
+              <label for="fruit-2">Fruit 2*<select id="fruit-2" name="fruit-2" required><option value="" disabled selected>Select a fruit</option></select><br><br></label>
+          
+              <label for="fruit-3">Fruit 3*<select id="fruit-3" name="fruit-3" required><option value="" disabled selected>Select a fruit</option></select><br><br></label>
+            </label>
+          
+              <label for="special-instructions">Special Instructions*
+              <textarea id="special-instructions" name="special-instructions" placeholder="Text....." rows="4" cols="50"></textarea><br><br>
+            </label><br>
+            </label>
+
+              <input type="submit" value="Order">
+            </form>
+          
+            <div id="output-area"></div>
+        </div>
+    </fieldset>
+</div>
+          
+
+    </main>
+    <footer>
+    <div class="info1">    
+    <div class="adressimage">
+        <a href="index.html">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
+            </picture>
+            </a>
+        <div>
+        <h1>Bountiful Food</h1>
+        <h2>San Diego, CA 92101</h2>
+        <h2>Banker's Hill.</h2>
+        </div>
+    </div>
+        <div class="info">
+         <h2>info@bountifulfruits.com</h2>
+         <h2>+1(619) 233-3901</h2>
+        
+         <!-- <span><img src="image/tempicon.png" alt=""></span><a href=""> Map Location</a> -->
+        </div>
+    </div>
+        <hr>
+        <a href=""> &copy; 2023 Bountiful Food | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
+    </footer>
+    <script src="script/order.js"></script>
+    <script src="script/weather.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>

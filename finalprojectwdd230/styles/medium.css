@@ -1,0 +1,272 @@
+@media only screen and (min-width: 37.5em)  {
+
+    .content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #primaryNav{
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+        border: 1px;
+        justify-content: space-evenly;
+    }
+    
+    #hamburgerBtn{
+        display: none;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #333;
+        border-top: 0;
+        color: black;
+        font-size: 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+    
+
+     .bountifood p{font-size: 10px;}
+
+     .about{
+        font-size: 10px;
+     }
+
+     .bountifulpicture{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+   }
+
+   .county-img{
+      width: 100%;
+      height: 100%;
+  }
+
+     /*       discover         */
+
+     .con1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con3{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con4{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con5{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con6{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        border: 2px;
+     }
+  
+     .con1:hover{
+        color: blanchedalmond;
+     }
+  
+     .con2:hover{
+        color: blanchedalmond;
+     }
+  
+     .con3:hover{
+        color: blanchedalmond;
+     }
+  
+     .con4:hover{
+        color: blanchedalmond;
+     }
+  
+     .con5:hover{
+        color: blanchedalmond;
+     }
+  
+     .con6:hover{
+        color: blanchedalmond;
+     }
+  
+  
+     .lazy{
+        margin: 5px;
+        padding: 5px;
+        border: 1px ;
+     }
+  
+     .text{
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        border: 2px;
+        font-size: 15px;
+     }
+  
+     .lazy-img{
+        filter: blur(10px);
+        width: 100%;
+        height: 100%;
+     }
+  
+     .space{
+        margin: 10px;
+        padding: 10px;
+        border: 2px;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+     }
+
+     .info1{
+       justify-content: space-between;
+        display: flex;
+     }
+
+
+     /*           form           */
+
+     .fieldset fieldset{
+      width: 100%;
+   }
+
+     input#first-name{
+      width: 100%;
+   }
+   
+   label.top1{
+      width: 60%;
+      border: 2px;
+   }
+   
+   label.top2{
+      width: 60%;
+      border: 2px;
+   }
+   
+   
+   input#email{
+      width: 100%;
+   }
+   
+   input#phone-number{
+      width: 100%;
+   }
+   
+   
+   
+   select#fruit-1{
+      width: 100%;
+   }
+   
+   select#fruit-2{
+      width: 100%;
+   }
+   
+   select#fruit-3{
+      width: 100%;
+   }
+   
+   form{
+      width: 50%
+   }
+
+   input{
+      width: 100px;
+      padding: 10px;
+      margin: 10px;
+      border: 2px;
+      background-color: orange;
+      border-radius: 3px;
+   }
+
+   input:hover{
+      background-color: green;
+   }
+
+   .form{
+      display: flex;
+      justify-content: space-between;
+   }
+
+  /*     contact us     */
+
+.contact h1{
+   font-size: 20px;
+}
+
+.contact h2 {
+   font-size: 20px;
+}
+
+.contact h3 {
+   font-size: 20px;
+}
+
+.contact p{
+   font-size: 20px;
+}
+
+.contact a {
+   font-size: 20px;
+}
+
+.contactform{
+   display: flex;
+   justify-content: space-between;
+}
+
+label.top input{
+   width: 70%;
+   background-color: white;
+}
+label.top textarea{
+   width: 100%;
+}
+
+fieldset{
+   width: 70%;
+}
+
+/*    weather    */
+#forecast-container{
+   display: flex;
+   width: 100%;
+ }
+
+ .forecast-card {
+   width: 32%;
+ }
+   
+ h1{
+   font-size: 20px;
+ }
+
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <title>Bountiful food</title>
+</head>
+<body>
+<header>
+    <!-- <div class="banner"  id="bannerElement"></div> -->
+    <div class="content">
+        <div class="logo" >
+            <a href="bountifulfood.html">
+                <picture>
+                    <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                    <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                    <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
+                </picture>
+                </a>
+        <div class="message">
+        <h1>Bountiful Food</h1>
+        </div>
+    </div>
+
+    
+        <div class="social">
+            
+                <a href="https://facebook.com">
+                <picture>
+                <img src="images/facebooksmall.webp" alt="social media picture" style="width:auto;">
+                </picture>  
+                </a>
+                
+                <a href="https://twitter.com">
+                <picture>
+                <img src="images/twitter.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+
+                <a href="https://instagram.com">
+                <picture>
+                <img src="images/instgram.webp" alt="social media picture" style="width:auto;">
+                </picture>
+                </a>
+            
+        </div>
+
+        <div class="order"><a href="facebook.com"></a><p>Make Your Own Fruit Drink Mix</p></div>
+
+    </div>
+    
+
+    <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="bountifulfood.html">Home</a></li>
+            <li><a href="fresh.html">Fresh</a></li>
+            <!-- <li><a href="discover.html">Menu</a></li> -->
+            <li class="active"><a href="contactus.html">About Us</a></li>
+            <!-- <li><a href="contact.html">Contact</a></li>     -->
+        </ul>
+    </nav>
+    </header>
+    <main>
+
+        <div class="contact">
+            <h1>ABOUT US</h1>
+
+            <p>Bountiful Foods is small business specializing in organic, locally grown foods. physically located in Carlsbad, 
+                California, however, we have many food trucks that cover the coastal area from Los Angeles to San Diego. Our company 
+                sells fruits and produce directly from the farmers in the area, but also uses some national and international suppliers. 
+                We caters to walk in traffic in our storefront in Carlsbad and, of course, our food trucks. 
+                We deliver and manage those orders on the phone and via the website. Our mission is to provide fresh and healthy organic food options.</p>
+            
+        <div class="contactform">
+            <form method="get" action="thanks.html">
+            <fieldset>
+            <h3>CONTACT FORM</h3>
+            <p>* indicates required field</p>
+            <label class="top"> Name* <input type="text" name="fname" required></label>
+            <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+            <label class="top">Question/Concern*:<textarea name="business-description" class="" cols="50" rows="10" placeholder="text...." required></textarea></label>
+        </fieldset>
+
+        <input type="submit" value="Join Us" class="submitBtn">
+        </form>
+
+        <div class="contactaddress">
+            <h2>CONTACT US</h2>
+            <h3>Address:</h3>
+            <p>Bountiful Food San Diego, CA 92101 Banker's Hill.</p>
+            <h3>Phone:</h3>
+            <p>+1(619) 233-3901</p>
+            <h3>Email:</h3><a href="gmail.com"><P>info@bountifulfruits.com</P></a>
+            
+        </div>
+        </div>
+        <div class="akuremap"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d425168.74078669486!2d-117.7803964!3d33.64081399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc925c54d5f7cf%3A0xdea6c3618ff0d607!2sOrange%20County%2C%20CA%2C%20USA!5e0!3m2!1sen!2sng!4v1688645036192!5m2!1sen!2sng
+            " width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+          
+
+    </main>
+    <footer>
+    <div class="info1">    
+    <div class="adressimage">
+        <a href="index.html">
+            <picture>
+                <source media="(min-width: 800px)" srcset="images/boutifullogolarge.webp">
+                <source media="(min-width: 500px ) and (max-width: 799px )" srcset="images/boutifullogomedium.webp">
+                <img src="images/boutifullogo.webp" alt="Bountiful food image" style="width:auto;">
+            </picture>
+            </a>
+        <div>
+        <h1>Bountiful Food</h1>
+        <h2>San Diego, CA 92101</h2>
+        <h2>Banker's Hill.</h2>
+        </div>
+    </div>
+        <div class="info">
+         <h2>info@bountifulfruits.com</h2>
+         <h2>+1(619) 233-3901</h2>
+        
+         <!-- <span><img src="image/tempicon.png" alt=""></span><a href=""> Map Location</a> -->
+        </div>
+    </div>
+        <hr>
+        <a href=""> &copy; 2023 Bountiful Food | Oluwashina S. Ibukun | wdd230 Project |</a> <span class="tool">Last Modify Date: <span id="lastdate"></span></span>
+    </footer>
+    <script src="script/order.js"></script>
+    <script src="script/weather.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html>
