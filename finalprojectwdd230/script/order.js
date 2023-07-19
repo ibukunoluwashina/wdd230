@@ -17,14 +17,7 @@ fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
 
 
 
-
-
-
-
-
-
-
-    // Function to calculate the total nutrition values
+ // Function to calculate the total nutrition values
     function calculateTotalNutrition(fruitSelections) {
       const fruitData = JSON.parse(localStorage.getItem('fruitData'));
       let totalCarbohydrates = 0;
@@ -116,3 +109,14 @@ fetch('https://brotherblazzard.github.io/canvas-content/fruit.json')
     const form = document.getElementById('fruit-order-form');
     form.addEventListener('submit', updateOutputArea);
  
+
+
+
+
+
+
+
+
+
+
+

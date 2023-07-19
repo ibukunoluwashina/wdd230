@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-    <!-- <div class="banner"  id="bannerElement"></div> -->
+    
     <div class="content">
         <div class="logo" >
             <a href="bountifulfood.html">
@@ -50,11 +50,11 @@
             
         </div>
 
-        <div class="order"><a href="facebook.com"></a><p>Make Your Own Fruit Drink Mix</p></div>
+        <div class="order"><a href="fresh.html">Make Your Own Fruit Drink Mix</a></div>
 
     </div>
     
-    <!-- <div id ="currentdate"></div> -->
+    
 
     <nav>
         <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
@@ -95,8 +95,16 @@
 
               <input type="submit" value="Order">
             </form>
-          
-            <div id="output-area"></div>
+            
+              <div id="drink-counter-card" style="display: none;">
+                <h2>Specialty Drink Submissions</h2>
+                <p>Total Submissions: <span id="drink-counter">0</span></p>
+
+                <div id="output-area"></div>
+              </div>
+            
+    
+        
         </div>
     </fieldset>
 </div>
@@ -123,7 +131,6 @@
          <h2>info@bountifulfruits.com</h2>
          <h2>+1(619) 233-3901</h2>
         
-         <!-- <span><img src="image/tempicon.png" alt=""></span><a href=""> Map Location</a> -->
         </div>
     </div>
         <hr>
@@ -132,5 +139,6 @@
     <script src="script/order.js"></script>
     <script src="script/weather.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/localstorage.js"></script>
 </body>
 </html>

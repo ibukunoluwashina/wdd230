@@ -51,11 +51,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     border: 1px;
 }
 
-.order p{
+.order a{
     padding: 10px;
     margin: 10px;
     border: 1px solid orange;
     font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
 }
 
 li{
@@ -124,7 +126,7 @@ nav ul li a {
    background-color: rgba(0, 0, 0, 0.3);
 } */
 
-.order p:hover{
+.order a:hover{
    background-color: orange;
 }
 
@@ -471,7 +473,6 @@ label.top input{
  }
 
  #forecast-container{
-   display: block;
    width: 100%;
    padding: 10px;
    margin: 10px;
@@ -480,4 +481,10 @@ label.top input{
 
  h1{
    font-size: 15px;
+ }
+
+ #drink-counter-card{
+   padding: 25px 10px 10px 0;
+   margin: 10px;
+   border: 10px;
  }
