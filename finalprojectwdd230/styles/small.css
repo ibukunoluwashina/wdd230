@@ -58,6 +58,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     color: black;
+    font-size: 12px;
 }
 
 li{
